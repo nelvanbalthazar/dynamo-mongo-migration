@@ -1,0 +1,16 @@
+'use strict';
+
+module.exports = {
+    MONGODB_USERNAME: "",
+    MONGODB_PASSWORD: "",
+    MONGODB_ENDPOINT: "13.250.112.31",
+    AWS_ACCESS_KEY_ID: "AKIAJOEIQZWA5ASRKH5Q",
+    AWS_SECRET_ACCESS_KEY: "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",
+    AWS_REGION: "ap-southeast-1",
+    DYNAMODB_TABLE_NAME: "inboxdev",
+    DYNAMODB_READ_THROUGHPUT: 10,
+    MONGODB_COLLECTION_NAME: "Inbox",
+    MONGODB_DATABASE_NAME: "boost-svc-inbox",
+    // MAPPER_BUCKET_NAME: process.env.MAPPER_BUCKET_NAME,
+    // MAPPER_OBJECT_KEY: process.env.MAPPER_OBJECT_KEY
+};
